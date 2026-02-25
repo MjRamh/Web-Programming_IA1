@@ -1,11 +1,11 @@
-/* ─────────────────────────────────────────
-   style.css — Portfolio | WP CIT2011
-   Minimalist theme with palette: #FEC9F1, #D387AB, #B279A7, #948D9B, #EFECCA
-   ───────────────────────────────────────── */
+/* (!)(!)(!)(!)(!)(!)()(0)──────────────────────────────(!)(!)(!)(!)(!)(!)()(0)
+  style.css 
+   REMBER FUTRE MEEES FOLLOW THESE AS UR COLOURS #FEC9F1, #D387AB, #B279A7, #948D9B, #EFECCA
+   (!)(!)(!)(!)(!)(!)()(0)──────────────────────────────(!)(!)(!)(!)(!)(!)()(0) */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-/* ── ROOT VARIABLES (Q2) ── */
+/*ROOT VARIABLES */
 :root {
   --pink-light:  #FEC9F1;
   --pink-mid:    #D387AB;
@@ -29,7 +29,7 @@
   --transition:  all 0.2s ease-in-out;
 }
 
-/* ── RESET ── */
+/* ── RESET ─ */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -67,7 +67,7 @@ a:hover {
   color: var(--pink-mid);
 }
 
-/* ── NAVIGATION (Q3) ── */
+/* ── NAVIGATION !!! ── */
 nav {
   position: sticky;
   top: 0;
@@ -136,14 +136,14 @@ nav {
   font-weight: 600;
 }
 
-/* Focus pseudo-class (Q2) */
+/* Focus pseudo-class  */
 .nav-links a:focus-visible {
   outline: 2px solid var(--mauve);
   outline-offset: 4px;
   border-radius: 2px;
 }
 
-/* ── MAIN CONTENT ── */
+/*  MAIN CONTENT!!!!!!!!  */
 .page {
   max-width: var(--max-w);
   margin: 0 auto;
@@ -152,7 +152,7 @@ nav {
   width: 100%;
 }
 
-/* ── HERO SECTION (with profile image) ── */
+/* ── HERO SECTION ( profile image INCLUDED HERE REMEMBER) ── */
 .hero {
   display: flex;
   gap: 3rem;
@@ -255,7 +255,7 @@ nav {
   font-weight: 500;
 }
 
-/* ── CARDS (Grid layout - Q5) ── */
+/* ── CARDS (Grid layout ) ── */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -272,7 +272,7 @@ nav {
   transition: var(--transition);
 }
 
-/* Pseudo-class hover on cards (Q2) */
+/* Pseudo-class hover on cards  */
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(178,121,167,0.12);
@@ -297,7 +297,7 @@ nav {
   line-height: 1.6;
 }
 
-/* ── BUTTONS (with transition animation - Q6) ── */
+/*BUTTONS (with transitions*/
 .btn {
   display: inline-block;
   padding: 0.6rem 1.5rem;
@@ -335,7 +335,7 @@ nav {
   background: rgba(178,121,167,0.02);
 }
 
-/* ── TABLE (Q5) ── */
+/* table*/
 table {
   width: 100%;
   border-collapse: collapse;
@@ -374,7 +374,7 @@ tr:hover td {
   background: #faf0f8;
 }
 
-/* ── LISTS (Q5) ── */
+/* Lists*/
 ul.styled, ol.styled {
   padding-left: 1.8rem;
   display: flex;
@@ -394,7 +394,7 @@ ol.styled li::marker {
   font-weight: 700;
 }
 
-/* ── BLOCKQUOTE ── */
+/*Blockquote THINGS*/
 blockquote {
   border-left: 4px solid var(--pink-mid);
   padding: 1.2rem 1.8rem;
@@ -416,7 +416,7 @@ blockquote cite {
   color: var(--accent);
 }
 
-/* ── IFRAME (Resume) ── */
+/* Iframe ( FOR Resume REMOVE THE SECOND ONE)*/
 .iframe-wrap {
   width: 100%;
   height: 70vh;
@@ -435,7 +435,7 @@ blockquote cite {
   border: none;
 }
 
-/* ── FILE CARDS ── */
+/* ()()()(FILE CARDS0()()()  */
 .file-list {
   display: flex;
   flex-direction: column;
@@ -477,7 +477,7 @@ blockquote cite {
   color: var(--text-muted);
 }
 
-/* ── DIVIDER ── */
+/* ─IVIDER ── */
 .divider {
   border: none;
   border-top: 2px solid var(--pink-light);
@@ -485,7 +485,7 @@ blockquote cite {
   opacity: 0.6;
 }
 
-/* ── FOOTER ── */
+/* ── FOOTER  */
 footer {
   border-top: 1px solid var(--border);
   text-align: center;
@@ -495,7 +495,7 @@ footer {
   background: var(--surface);
 }
 
-/* ── ANIMATIONS (Q6) ── */
+/* ── ANIMATIONS  */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -516,9 +516,9 @@ footer {
 .fade-up:nth-child(4) { animation-delay: 0.3s; }
 .fade-up:nth-child(5) { animation-delay: 0.4s; }
 
-/* ── RESPONSIVE DESIGN (Q2) ── */
+/* ──rESPONSIVE PART FIX THIS LTR BUGGING OUT */
 
-/* Mobile: min 600px */
+/* Mobile PART min 600px */
 @media (min-width: 600px) and (max-width: 949px) {
   .hero {
     flex-direction: column;
@@ -540,7 +540,7 @@ footer {
   }
 }
 
-/* Desktop: min 950px */
+/* Desktop partmin 950px */
 @media (min-width: 950px) {
   .hero {
     flex-direction: row;
@@ -552,7 +552,7 @@ footer {
   }
 }
 
-/* Small mobile (below 600px) */
+/* Small mobile this is below 600px */
 @media (max-width: 599px) {
   .nav-inner {
     flex-direction: column;
